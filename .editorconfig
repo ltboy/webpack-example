@@ -1,0 +1,18 @@
+root = true
+
+[*]
+charset = utf-8                   # 编码
+indent_style = space              # 缩进分格
+indent_size = 2                   # 缩进数量
+tab_width = 2                     # tab 对应长度
+end_of_line = lf                  # 换行符格式
+trim_trailing_whitespace = true   # 删除行末空格
+insert_final_newline = true       # 插入空行在结尾处
+
+
+[*.yml]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
